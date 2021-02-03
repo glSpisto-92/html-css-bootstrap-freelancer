@@ -56,7 +56,6 @@ header h2{
   font-size: 50px;
 }
 
-.container_mini{
-  max-width: 700px;
-  margin: auto;
+.container.mini{
+  width: 700px;
 }
