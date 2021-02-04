@@ -106,9 +106,43 @@ header h2{
 .img_portfolio{
   max-width: 100%;
   height: auto;
-  margin-bottom: 30px;
-  padding: 10px;
   border-radius: 20px;
+
+}
+
+.over{
+  position: relative;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 20px;
+  height: 100%;
+}
+
+.overlay:hover{
+  background-color: rgba(26, 188, 156, 0.8);
+}
+
+.special_plus{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: none;
+  font-size: 70px;
+}
+
+.over:hover .special_plus{
+  display: block;
 }
 
 .portfolio h2, .about h2, .contact h2, .about h2{
