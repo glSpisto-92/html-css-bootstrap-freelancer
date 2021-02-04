@@ -57,6 +57,7 @@ header h2{
   color: #2c3e50;
 }
 
+  /* sezione jumbotron */
 .jumbo_top, .portfolio, .about{
   padding: 50px 0;
 }
@@ -84,6 +85,10 @@ header h2{
   vertical-align: middle;
 }
 
+.star_blue{
+  color: #2c3e50;
+}
+
 .line_jumbo{
   border: 2px solid white;
   width: 100%;
@@ -97,7 +102,7 @@ header h2{
   border: 2px solid #2c3e50;
 }
 
-/* sezione portfolio */
+  /* sezione portfolio */
 .img_portfolio{
   max-width: 100%;
   height: auto;
@@ -110,7 +115,24 @@ header h2{
   font-size: 50px;
 }
 
-/* sezione contatti/form */
+  /* sezione about */
+.about p{
+  margin: 20px 0 40px 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.btn_style{
+  padding: 18px;
+  border: 2px solid white;
+  font-size: 22px;
+}
+
+.btn_style:hover{
+  background-color: white;
+}
+
+  /* sezione contatti/form */
 .container_mini{
   max-width: 800px;
   width: 70%;
@@ -122,8 +144,32 @@ header h2{
 }
 
  /* footer */
+.social_icon{
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+.social_icon i{
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.social_icon a{
+  color: white;
+}
+
+.social_icon li i:hover {
+  background: white;
+  color: black;
+}
+
 .credits{
-  padding: 40px 0;
+  padding: 70px 0;
+}
+
+.credits p{
+  font-size: 18px;
 }
 
 .copy{
