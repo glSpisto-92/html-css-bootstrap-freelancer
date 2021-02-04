@@ -39,7 +39,8 @@ header h2{
   color: white;
   border-radius: 8px;
   font-weight: bold;
-    padding: 15px 12px;
+  padding: 15px 12px;
+  margin-left: 10px;
 }
 
 .nav_top a{
@@ -56,7 +57,7 @@ header h2{
   color: #2c3e50;
 }
 
-.jumbo_top{
+.jumbo_top, .portfolio, .about{
   padding: 50px 0;
 }
 
@@ -83,17 +84,26 @@ header h2{
   vertical-align: middle;
 }
 
-.line{
+.line_jumbo{
   border: 2px solid white;
   width: 100%;
   max-width: 100px;
   display: inline-block;
   vertical-align: middle;
+  border-radius: 2px;
+}
+
+.l_m{
+  border: 2px solid #2c3e50;
 }
 
 /* sezione portfolio */
-.portfolio{
-  padding: 50px 0;
+.img_portfolio{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 .portfolio h2, .about h2, .contact h2, .about h2{
