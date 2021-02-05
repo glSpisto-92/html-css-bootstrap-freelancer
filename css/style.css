@@ -16,8 +16,9 @@ header h2{
   padding: 20px 0;
   position: sticky;
   top: 0;
-  width: 100%;
-  z-index: 1;
+  left: 0;
+  right: 0;
+  z-index: 10;
 }
 
 .bg_blue{
@@ -81,7 +82,7 @@ header h2{
 }
 
 .jumbo_img{
-  width: 250px;
+  max-width: 250px;
 }
 
 .text_jumbo{
@@ -97,6 +98,10 @@ header h2{
   display: inline-block;
   font-size: 34px;
   vertical-align: middle;
+}
+
+.star i{
+  padding: 10px;
 }
 
 .star_blue{
@@ -135,7 +140,6 @@ header h2{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.0);
   border-radius: 20px;
   height: 100%;
 }
@@ -192,16 +196,16 @@ header h2{
 
 .form-control{
   border:none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid lightgrey;
   border-radius: 0;
   box-shadow: none;
 }
 
 .form_style{
-  margin: 15px 0;
+  padding: 15px 0;
 }
 
-.form_style button:last-child{
+.form_style button{
   margin: 20px 0;
 }
 
@@ -241,4 +245,5 @@ header h2{
 
 .copy{
   padding: 20px 0;
+  font-size: 14px;
 }
