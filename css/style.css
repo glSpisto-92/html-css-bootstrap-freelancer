@@ -220,12 +220,6 @@ header h2{
   margin-top: 20px;
 }
 
-.social_icon i{
-  border: 2px solid white;
-  border-radius: 50%;
-  padding: 15px;
-}
-
 .social_icon a{
   color: white;
 }
@@ -233,6 +227,15 @@ header h2{
 .social_icon li i:hover {
   background: white;
   color: black;
+}
+
+.social_icon li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  line-height: 48px;
 }
 
 .credits{
